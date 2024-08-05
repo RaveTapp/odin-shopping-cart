@@ -1,5 +1,5 @@
 {
-  "name": "react-template",
+  "name": "shopping-cart",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaveTapp/react-template"
+    "url": "git+https://github.com/RaveTapp/odin-shopping-cart"
   },
   "author": "RaveTapp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RaveTapp/react-template/issues"
+    "url": "https://github.com/RaveTapp/odin-shopping-cart/issues"
   },
-  "homepage": "https://github.com/RaveTapp/react-template#readme",
+  "homepage": "https://github.com/RaveTapp/odin-shopping-cart#readme",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
