@@ -1,16 +1,19 @@
 import App from "./components/App/App";
-import Homepage from "./components/Homepage/Homepage"
-// import Profile from "./components/Profile";
+import Homepage from "./components/Homepage/Homepage";
 import ErrorPage from "./components/ErrorPage";
-// import Settings from "./components/Settings"
 
 const routes = [
   {
     path: "/",
-    element: <Homepage />,
+    element: <App />,
     errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <Homepage />
+      }
+    ]
   },
-  
 ];
 
 export default routes;

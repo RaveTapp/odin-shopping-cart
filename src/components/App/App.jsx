@@ -1,3 +1,8 @@
-export default function App(){
-    return <h1>Hello, world!</h1>;
+import { Outlet } from "react-router-dom";
+
+export default function App() {
+  return <>
+    <header>Hello</header>
+    <Outlet />
+  </>;
 }
