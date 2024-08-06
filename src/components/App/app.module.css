@@ -1,0 +1,15 @@
+.header {
+    height: 8vh;
+    background-color: #393e46;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlink {
+    font-family: 'Courier New', Courier, monospace;
+    color: #eeeeee;
+    font-size: 3rem;
+    text-decoration: none;
+    background-color: inherit;
+}
