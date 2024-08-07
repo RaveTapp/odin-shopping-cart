@@ -14,8 +14,8 @@ export default function Shop() {
   ));
 
   return (
-    <>
+    <div className={Styles.wrapper}>
       <div className={Styles.cards}>{productCards}</div>
-    </>
+    </div>
   );
 }

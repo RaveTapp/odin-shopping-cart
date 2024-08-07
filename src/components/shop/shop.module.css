@@ -1,5 +1,10 @@
 .cards {
     display: grid;
-    grid-template-columns: repeat(4, 20vw);
-    gap: 8px;
+    grid-template-columns: repeat(4, 23vw);
+    gap: 12px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
 }

@@ -14,7 +14,7 @@ export default function App() {
         <NavLink to="/shop" className={styles.navlink}>
           Shop
         </NavLink>
-        <h2>{numItems} in cart</h2>
+        <h2 className={styles.h2}>{numItems} in cart</h2>
       </header>
       <Outlet context={[numItems, setNumItems]} />
     </>

@@ -15,7 +15,7 @@ export default function Product({ product }) {
     <div className={Styles.product}>
       <img src={product.image} alt={product.title} className={Styles.image} />
       <h3>{product.title}</h3>
-      <input type="number" min="0" />
+      <input type="number" min="0" className={Styles.input} />
       <button className={Styles.button} onClick={handleClick}>
         Add To Cart
       </button>
