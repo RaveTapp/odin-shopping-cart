@@ -1,21 +1,21 @@
-import Product from "../product/Product"
-import Styles from "./shop.module.css"
+import Product from "../product/Product";
+import Styles from "./shop.module.css";
 
-
-let products = fetch('https://fakestoreapi.com/products')
-.then(res=>res.json())
-.then(json=>{
-    console.log(json)
+let products = fetch("https://fakestoreapi.com/products")
+  .then((res) => res.json())
+  .then((json) => {
+    console.log(json);
     products = json;
-})
+  });
 
-export default function Shop(){
-    let productCards = products.map(prod => <Product product={prod} key={prod.id} />)
+export default function Shop() {
+  let productCards = products.map((prod) => (
+    <Product product={prod} key={prod.id} />
+  ));
 
-    return <>
-    <div className={Styles.cards}>
-        {productCards}
-    </div>
-        
+  return (
+    <>
+      <div className={Styles.cards}>{productCards}</div>
     </>
+  );
 }
