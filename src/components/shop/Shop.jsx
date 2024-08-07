@@ -4,7 +4,6 @@ import Styles from "./shop.module.css";
 let products = fetch("https://fakestoreapi.com/products")
   .then((res) => res.json())
   .then((json) => {
-    console.log(json);
     products = json;
   });
 
