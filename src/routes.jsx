@@ -1,6 +1,7 @@
 import App from "./components/App/App";
 import Homepage from "./components/Homepage/Homepage";
 import ErrorPage from "./components/ErrorPage";
+import Shop from "./components/shop/Shop"
 
 const routes = [
   {
@@ -14,6 +15,7 @@ const routes = [
       },
       {
         path: "shop",
+        element: <Shop />
       },
       {
         path: "cart",
